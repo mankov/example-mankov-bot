@@ -7,6 +7,7 @@ const LogMonitor = require('./log-monitor');
 const TG_TOKEN = process.env.MANKOV_TG_TOKEN;
 const WEBHOOK_URL = process.env.MANKOV_WEBHOOK_URL;
 
+require('net').createServer().listen(); // keep-alive hack
 
 // Create Mankov instance
 const mankov = new Mankov();
