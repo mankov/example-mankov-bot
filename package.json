@@ -1,0 +1,27 @@
+{
+  "name": "example-mankov-bot",
+  "version": "0.0.1",
+  "description": "Example Telegram-bot using Mankov framework",
+  "main": "src/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mankov/example-mankov-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "Miro Nieminen <miro.nieminen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mankov/example-mankov-bot/issues"
+  },
+  "homepage": "https://github.com/mankov/example-mankov-bot",
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^5.0.0",
+    "eslint-plugin-import": "^1.12.0"
+  }
+}
