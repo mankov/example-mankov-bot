@@ -7,18 +7,13 @@
 
   "env": {
     "browser": false,
-    "node": true,
-    "mocha": true
+    "node": true
   },
   "plugins": [
     "import"
   ],
 
   "rules": {
-    "mocha/no-exclusive-tests": 2,
-    "mocha/no-skipped-tests": 2,
-    "mocha/handle-done-callback": 2,
-
     "quotes": [2, "single"],
     "comma-dangle": [2, "never"],
     "keyword-spacing": [2, {
