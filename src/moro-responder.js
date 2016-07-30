@@ -1,6 +1,7 @@
 // # MoroResponder
 //  example Responder
 const _ = require('lodash');
+const Promise = require('bluebird');
 const actions = require('../../mankov/action-creators');
 
 const TRIGGER_KEYWORD = 'moro';
@@ -35,7 +36,7 @@ class MoroResponder {
       // "roll the dice" will we respond or not
       const dice = _.random(0, 100);
       if (dice <= this._probabilityPercent) {
-        const action = actions.sendMessage(event.targetId, message);
+        const action = actions.sendMessage(message);
         return Promise.resolve([action]);
       }
     }
